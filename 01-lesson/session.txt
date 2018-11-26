@@ -1,0 +1,21 @@
+$ # Create a ClojureScript command-line app on Node the easy way, with lumo
+$ npm install -g lumo-cljs
+/usr/local/bin/lumo -> /usr/local/lib/node_modules/lumo-cljs/download/dist/lumo
+
+> lumo-cljs@1.9.0 postinstall /usr/local/lib/node_modules/lumo-cljs
+> node download/install.js || nodejs download/install.js
+
+> For the source code, check out: https://github.com/anmonteiro/lumo
+
+> Downloading Lumo 1.9.0 [====================] 99%
+> Downloading Lumo 1.9.0 [====================] 100%
++ lumo-cljs@1.9.0
+updated 1 package in 18.883s
+$ 
+$ # https://github.com/anmonteiro/lumo/wiki/Install
+$ vi hello.cljs
+$ chmod +x hello.cljs
+$ ./hello.cljs
+Hello, Node!
+$ 
+
